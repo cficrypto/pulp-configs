@@ -26,6 +26,7 @@
     "script": "run.tcl",
     "gui": false,
     "simchecker": false,
+    "fast_preload": false,
     "args": [],
     "tcl_args": [],
     "vsim_runner_class": "runner/rtl/vsim_runner",
