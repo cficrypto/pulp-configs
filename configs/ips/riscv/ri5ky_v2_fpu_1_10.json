@@ -5,7 +5,7 @@
   "gv_isa"        : ["--pulp", "--rv32m", "--pulpv2", "--pulp-perf-counters", "--pulp-hw-loop", "--itc-external-req", "--fpu", "--fpud", "--shared-fpu"],
   "isa"           : "rv32imfcXpulpv2",
   "march"         : "imfcXpulpv2",
-  "compiler_args" : ["-mfdiv"],
+  "compiler_args" : ["-mabi=ilp32f", "-mfdiv"],
   "bootaddr_offset": "0x00",
   "priv_version"  : 1.9,
   "perf_counters" : true,
